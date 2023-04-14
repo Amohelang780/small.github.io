@@ -1,0 +1,117 @@
+body {
+	font-family: Lucida Calligraphy, sans-serif;
+	background-image: url(blue.jpg);
+}
+
+header {
+	background-color: #00FFFF;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding
+}
+/* Navigation */
+
+nav ul li {
+display: inline-block;
+}
+
+nav ul li a {
+color: #fff;
+padding: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav ul li a:hover {
+background-color: #2c3e50;
+}
+
+#blog {
+padding: 50px;
+}
+
+.container {
+max-width: 960px;
+margin: 0 auto;
+}
+
+.blog-post {
+margin-bottom: 50px;
+}
+
+.blog-post h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.blog-post p {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.blog-post a {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+color: #2c3e50;
+}
+
+.blog-post a:hover {
+color: #1abc9c;
+}img{
+	float: left;
+	 margin-right: 10px;
+	height: 200px;
+	width: 200px;}
+
+.blog-post	{
+	overflow: auto;
+}
+.blog-post p{
+	margin-left: 10px;
+}
+}
+}
+form {
+margin-top: 50px;
+}
+
+form h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+form label {
+display: block;
+font-weight: bold;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: none;
+border-radius: 5px;
+background-color: #fff;
+box-shadow: 0 0 5px #ccc;
+}
+
+form input[type="submit"] {
+display: block;
+background-color: #2c3e50;
+color: #fff;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+background-color: #1abc9c;
+}
